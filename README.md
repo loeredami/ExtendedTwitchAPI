@@ -24,7 +24,6 @@ import Plugin
 import PluginManager
 
 class Fun(Plugin.Plugin):
-    n = fullmoon.NextFullMoon()
 
     def __init__(self):
         super().__init__("Fun")
